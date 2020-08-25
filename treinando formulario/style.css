@@ -1,0 +1,84 @@
+body{
+  background-color: black;
+  align-items: center;
+  
+
+  
+}
+
+  
+
+div{
+  color: aliceblue;
+  font-style: initial;
+  display: flex;
+  justify-content: center;
+  
+
+  
+  
+  
+}
+input{
+
+}
+.nome{
+  padding: 8px;
+width: 350px;
+margin: 0px 5px 20px;
+
+}
+.email{
+  padding: 8px;
+width: 350px;
+margin: 0 5px 0;
+
+}
+
+
+h1{
+  color: aliceblue;
+  justify-content: center;
+  font-style: initial;
+  display: flex;
+
+}
+.nav-linha{
+  display: flex;
+  justify-content: center;
+  margin: 20px 20px 20px;
+  flex: 100px;
+  flex-wrap: wrap;
+}
+.data{
+  margin: 0 5px 0;
+}
+.cidade{
+  margin: 0 5px 0;
+}
+.ultimo{
+  margin: 0 5px 20px;
+  padding: 8px;
+  width: 200ps;
+}
+p{
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+}
+.sexo{
+  margin: 20px 10px 20px;
+  
+}
+.bio{
+  padding: 70px;
+  width: 350px;
+}
+.button{
+
+  justify-content: center;
+  margin: 30px 0 0;
+  padding: 20px;
+
+  
+}

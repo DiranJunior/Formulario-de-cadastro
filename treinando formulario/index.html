@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario Treino</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section>
+    <h1>Cadastre Seus Dados</h1>
+  </section>
+  <form action="" method="POST" enctype="multipart/form-data">
+  <div>
+    <label for=""> Nome </label>
+    <input class="nome" name="nome" required= 'required' placeholder="Digite Seu nome" type="text">
+  </div>
+  <div>
+    <label for="">Email </label>
+    <input class="email" name="nome" required= 'required' placeholder="Digite Seu Email" type="text">
+  </div>
+  <section class="nav-linha">
+  <div>
+    <label for="">Data Nasc</label>
+    <input  class="data" name="nome" required= 'required' placeholder="Digite Seu nome" type="date">
+  </div>
+  <div>
+    <label class="cidade" for=""> Sua Cidade  </label>
+    <select required='required' name="cidade">
+      <option selected ='selected' value="">Selecione</option>
+      <option value="1">São Paulo</option>
+      <option value="2">Fortaleza</option>
+      <option value="3">Florianópolís</option>
+      <option value="4">Salvador</option>
+    </select>
+  </div>
+</section>
+
+  <div>
+    <label for=""> Ultimo emprego</label>
+    <input class="ultimo" name="nome" required= 'required' placeholder="*campo obrigatorio" type="text">
+  </div>
+
+  <div>
+    <label for="">Sua Foto</label>
+    <input name="foto" required= 'required' type="file">
+  </div>
+  
+<section class="sexo">
+  <p>Sexo:</p>
+  <div>
+  
+    <label for="sexo1"><input name="sexo" id="sexo1" value="M" type="radio">Masculino</label>
+    <label for="sexo2"><input name="sexo" id="sexo2" value="F" type="radio">Feminino</label>
+  </div>
+</section>
+  <div>
+    <label for="Biografia"></label>
+    <textarea class="bio" name="Biografia" placeholder="Digite sua Biografia" required = 'required' cols="30" rows="10"></textarea>
+  </div>
+</form>
+<div class="button">
+<button type="submit">Enviar</button>
+</div>
+  
+</body>
+</html>
